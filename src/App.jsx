@@ -22,6 +22,7 @@ const PhotoList = () => {
         <div key={photo.id} className="photo">
           <img src={photo.thumbnailUrl} alt={photo.title} />
           <h2>{photo.title}</h2>
+          <h3>id: {photo.id}</h3>
         </div>
       ))}
     </div>
